@@ -7,6 +7,24 @@ p{
     color: #3E3E3E;
     ;
 }
+header{
+    background-color: #FFFBF0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.dollar{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    color: #FABE4C;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.padding-bottom{
+    padding-bottom: 100px;
+}
 button{
     width: 170px;
     height: 60px;
@@ -14,9 +32,6 @@ button{
     border: 0;
     border-radius: 10px;
     color: white;
-}
-.custom-container{
-    background-image: url();
 }
 .bebas-neue{
     font-family: 'Bebas Neue', cursive;
@@ -33,13 +48,14 @@ button{
     border-radius: 22px;
     width: 270px;
     height: 270px;
+    transition: transform 0.1s ease-in-out 0s;
+}
+.women-jacket-img:hover{
+    transform: scale(1.1);
 }
 .custom-card{
     border: 0;
     padding: 10px;
-}
-.buy-btn{
-    
 }
 .card-footer{
     background-color: white;
@@ -50,14 +66,71 @@ button{
     border: 0;
     border-radius: 20px;
     padding: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.custom-carousel-2{
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .foot{
     background-color: #A9C051;
     padding: 80px;
 }
-ul>li{
-    list-style: none;
+.footer-nav li{
+    list-style-type: none;
+    padding: 8px 0;
+    font-size: 18px;
+}
+.footer-nav li a{
+    color: black;
+    text-decoration: none;
+    transition: padding 0.3s ease-in-out 0s;
+}
+.footer-nav li a:hover{
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.quick-navigate-header{
+    border: 2px solid black;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color,color 0.6s ease-in-out 0s;
+}
+.quick-navigate-header:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor:context-menu;
+    padding: 0 10px;
+}
+.brand li{
+    list-style-type: none;
+    padding: 15px;
+}
+.brand li img{
+    transition: transform 0.5s ease-in-out 0s;
+}
+.brand li img:hover{
+    transform: scale(1.5);
+}
+.custom-grid{
+    display: grid;
+    grid-template-columns: 160px 160px;
 }
 .color-primary{
     color: #A4BC46;
@@ -68,3 +141,57 @@ ul>li{
 .color-yellow{
     color: #FABE4C;
 }
+.copyright{
+    display:flex;
+    justify-content: center;
+    background-color: #A9C051;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+}
+.custom-carousel ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.custom-carousel ul li img{
+    position: relative;
+    right: 10px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.custom-carousel ul li img:hover{
+    transform: scale(1.5);
+}
+.custom-carousel ul p{
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.custom-carousel-2 ul p{
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.custom-carousel ul p:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.custom-carousel-2 ul p:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.border-right{
+    border-right: 1px solid gray;
+}
+.navigation-item{
+    color: black;
+    font-weight: bold;
+}
+.big-pic-card{
+    transition: transform 0.2s ease-in-out 0s;
+}
+.big-pic-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
